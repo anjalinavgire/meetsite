@@ -1,0 +1,159 @@
+/* navigation */
+
+html{
+    scroll-behavior: smooth;
+  }
+
+
+/* #navbar{
+    align-items: center;
+    flex-direction: column;
+}
+
+#navbar ul li a{ 
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+} */
+/* home */
+h1.h-primary {
+    padding: 3px;
+    margin-top: 24px;
+}
+
+#home{
+    height: 257px;
+    padding: 88px;
+    margin-top: 3%;
+
+}
+
+
+   
+#home::before{
+    height: 480px;
+    
+}
+
+
+  
+  #home h1{
+      color:rgb(7, 7, 7);
+      text-align:center;
+      font-family: 'Bree Serif', serif;
+      font-size: 16px;
+      
+
+      
+  }
+  #home p{
+      margin: top 10px;
+      color:rgb(10, 10, 10);
+      text-align:center;
+      font-size: 13px;
+      font-family: 'Bree Serif', serif;
+        margin-top: -12px;
+  } 
+
+  .video-container {
+    z-index: -100;
+    width:100%;
+    height:130%;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    }
+
+.tagline-right-text{
+    position:absolute;
+    margin-top:9%;
+    text-align:center;
+    margin-left:17%;
+   font-family:Arial;
+    color:#fff;
+     width:290px;
+     font-size:14px;
+   }
+   
+   .tagline-left-text{
+    position:absolute;
+    margin-top:9%;
+    text-align:center;
+    margin-left:11%;
+   font-family:Arial;
+    color:#fff;
+     width:375px;
+     font-size: 14px;
+   }
+
+
+
+/* about */
+
+#about-container{
+    padding: 13px;
+}
+
+.panels {
+    
+    min-height: 50vh;
+    overflow-block: hidden;
+    display: flex;
+  }
+
+  
+
+/* services */
+#services{
+    margin-top: 0%;
+   margin: 60px;
+    flex-direction: column;
+
+}
+#services .box{
+    padding: 14px;
+    margin:2px 0;
+    margin-bottom: 20px;
+
+}
+
+#services .box p{
+    text-align: justify;
+}
+#services1{
+    margin: 60px;
+    flex-direction: column;
+
+}
+
+#services1 .box{
+    padding: 14px;
+    margin:2px 0;
+    margin-bottom: 20px;
+}
+
+    #services1 .box p{
+        text-align: justify;
+    }
+
+/* footer */
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 26px;
+}
+
+.btn{
+    padding: 4px 8px;
+    /* border:2px solid white; */
+    background-image: linear-gradient(rgb(248, 220, 168), rgb(5, 12, 43));
+    color:white;
+    margin: 0%;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor:pointer;
+    text-decoration: none;
+}
